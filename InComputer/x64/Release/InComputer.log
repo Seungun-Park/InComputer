@@ -1,0 +1,32 @@
+﻿  Character.cpp
+  CharacterDot.cpp
+  DrawAlphabet.cpp
+  DrawDot.cpp
+  DrawNPC.cpp
+  DrawSkill.cpp
+  DrawFunctions.cpp
+  Game2D.cpp
+  Timer.cpp
+  Floor.cpp
+  FloorDot.cpp
+  main.cpp
+c:\users\pswsj\source\repos\incomputer\incomputer\main.cpp(7): warning C4129: ' ': unrecognized character escape sequence
+  MainControl.cpp
+  Map0.cpp
+  Map1.cpp
+  map2.cpp
+  map3.cpp
+  map4.cpp
+  map5.cpp
+  Map_die.cpp
+  Compiling...
+  Minimap.cpp
+  Monster.cpp
+  MonsterDot.cpp
+  NPC.cpp
+  Skill.cpp
+  Source.cpp
+  Generating code
+  All 1436 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  InComputer.vcxproj -> C:\Users\pswsj\source\repos\InComputer\x64\Release\InComputer.exe

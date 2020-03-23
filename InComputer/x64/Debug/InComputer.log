@@ -1,0 +1,29 @@
+﻿  Character.cpp
+  CharacterDot.cpp
+  DrawAlphabet.cpp
+  DrawDot.cpp
+  DrawNPC.cpp
+  DrawSkill.cpp
+  Game2D.cpp
+  Floor.cpp
+  FloorDot.cpp
+  main.cpp
+c:\users\pswsj\source\repos\incomputer\incomputer\main.cpp(7): warning C4129: ' ': unrecognized character escape sequence
+  MainControl.cpp
+  Map0.cpp
+  Map1.cpp
+  map2.cpp
+  map3.cpp
+  map4.cpp
+  map5.cpp
+  Map_die.cpp
+  Minimap.cpp
+  Monster.cpp
+  Generating Code...
+  Compiling...
+  MonsterDot.cpp
+  NPC.cpp
+  Skill.cpp
+  Source.cpp
+  Generating Code...
+  InComputer.vcxproj -> C:\Users\pswsj\source\repos\InComputer\x64\Debug\InComputer.exe

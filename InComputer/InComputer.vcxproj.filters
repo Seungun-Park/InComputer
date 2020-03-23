@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{866478ea-f976-495b-b1ed-f4e0123efea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Game\Character">
+      <UniqueIdentifier>{dff561b2-ec53-4f68-9ae2-d936077d99f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Draw">
+      <UniqueIdentifier>{5eb644bd-d395-431d-9f10-082094814136}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\BackGround">
+      <UniqueIdentifier>{ff3e6892-c0db-401d-8af3-a87b64b44327}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Monster">
+      <UniqueIdentifier>{c06c7fa5-5cc4-4125-b2f0-829654ba6908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Minimap">
+      <UniqueIdentifier>{305f3baa-1e9e-4140-a10b-9d77c4ea851f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\NPC">
+      <UniqueIdentifier>{8d672b4b-491a-4f74-bbf5-eddfa1515b92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Map">
+      <UniqueIdentifier>{fb32dbd2-4f9a-43b9-a23d-8687d1848908}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\Colors.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\DrawFunctions.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Game2D.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\RandomNumberGenerator.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\RGB.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Timer.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Vector2.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Vector3.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="MainControl.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Constant.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Game\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawAlphabet.h">
+      <Filter>Game\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawDot.h">
+      <Filter>Game\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Floor.h">
+      <Filter>Game\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterDot.h">
+      <Filter>Game\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="FloorDot.h">
+      <Filter>Game\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Minimap.h">
+      <Filter>Game\Minimap</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Game\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterDot.h">
+      <Filter>Game\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill.h">
+      <Filter>Game\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawSkill.h">
+      <Filter>Game\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogue.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC.h">
+      <Filter>Game\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawNPC.h">
+      <Filter>Game\Draw</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine\DrawFunctions.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Game2D.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Timer.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MainControl.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Game\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawDot.cpp">
+      <Filter>Game\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="Floor.cpp">
+      <Filter>Game\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterDot.cpp">
+      <Filter>Game\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="FloorDot.cpp">
+      <Filter>Game\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="Minimap.cpp">
+      <Filter>Game\Minimap</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Game\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterDot.cpp">
+      <Filter>Game\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawAlphabet.cpp">
+      <Filter>Game\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill.cpp">
+      <Filter>Game\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawSkill.cpp">
+      <Filter>Game\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC.cpp">
+      <Filter>Game\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Map0.cpp">
+      <Filter>Game\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Map1.cpp">
+      <Filter>Game\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Map_die.cpp">
+      <Filter>Game\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="map2.cpp">
+      <Filter>Game\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawNPC.cpp">
+      <Filter>Game\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="map3.cpp">
+      <Filter>Game\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="map4.cpp">
+      <Filter>Game\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="map5.cpp">
+      <Filter>Game\Map</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
